@@ -2,6 +2,9 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'androidx.navigation.safeargs.kotlin'
+
+    // Plugin para poder añadir la implementación de Parcelable en compilación mediante una anotación
+    id 'kotlin-parcelize'
 }
 
 android {
